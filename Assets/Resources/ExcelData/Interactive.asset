@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202618aa7e0fa8b42aa2484ad544c646, type: 3}
+  m_Name: Interactive
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Excel/interactive.xlsx
+  WorksheetName: Interactive
+  dataArray:
+  - id: 101
+    form: talk01
+    feelingup: 2
+    feelingdown: 1
+  - id: 102
+    form: talk02
+    feelingup: 1
+    feelingdown: 0
+  - id: 103
+    form: talk03
+    feelingup: 3
+    feelingdown: 5
+  dataList:
+  - id: 101
+    form: talk01
+    feelingup: 2
+    feelingdown: 1
+  - id: 102
+    form: talk02
+    feelingup: 1
+    feelingdown: 0
+  - id: 103
+    form: talk03
+    feelingup: 3
+    feelingdown: 5

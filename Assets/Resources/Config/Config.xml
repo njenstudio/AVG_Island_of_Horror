@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Turns Name="回合">
+    <Turn Name="ActionPoint"></Turn>
+    <Turn Name="Turn"></Turn>
+    <Turn Name="Target_Violet"></Turn>
+    <Turn Name="Deadline"></Turn>
+    <Turn Name="D_Day"></Turn>
+
+  </Turns>
+  <Characters Name="角色">
+    <Character Name="Favorability"></Character>
+    <Character Name="Emotion"></Character>
+    <Character Name="Hungry"></Character>
+    <Character Name="Clean"></Character>
+    <Character Name="Violet"></Character>
+    <Character Name="Money"></Character>
+    <Character Name="Contribution"></Character>
+  </Characters>
+</Config>
