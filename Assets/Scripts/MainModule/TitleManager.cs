@@ -13,10 +13,27 @@ public class TitleManager : MonoBehaviour
     {
         LogoTitleAnimator.SetTrigger("In");
     }
-
+    public void GetAnyClick()
+    {
+        if (!isOpen)
+        {
+            LogoTitleAnimator.SetTrigger("Out");
+            BGAnimator.SetTrigger("Out");
+            MenuAnimator.SetTrigger("In");
+            isOpen = true;
+        }
+        else if (isOpen)
+        {
+            LogoTitleAnimator.SetTrigger("In");
+            BGAnimator.SetTrigger("In");
+            MenuAnimator.SetTrigger("Out");
+            isOpen = false;
+        }
+    }
     // Update is called once per frame
     void Update()
     {
+        /*
         if(Input.GetMouseButtonDown(0) && !isOpen)
         {
             LogoTitleAnimator.SetTrigger("Out");
@@ -31,5 +48,6 @@ public class TitleManager : MonoBehaviour
             MenuAnimator.SetTrigger("Out");
             isOpen = false;
         }
+        */
     }
 }
